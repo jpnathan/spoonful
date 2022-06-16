@@ -1,0 +1,4 @@
+contentful:
+  space_id: <%= ENV['CONTENTFUL_SPACE_ID'] %>
+  token: <%= ENV['CONTENTFUL_TOKEN'] %>
+  env_id: <%= ENV['CONTENTFUL_ENVIRONMENT_ID'] %>
