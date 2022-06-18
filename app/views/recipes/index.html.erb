@@ -1,5 +1,9 @@
-<h1>Spoonful</h1>
-<br>
-<% @recipes.each do |recipe| %>
-    <h3><%= recipe[:title] %></h3>
-<% end %>
+
+<div class="recipes">
+    <% @recipes_titles.each do |recipes_title| %>
+        <%= link_to recipe_path(recipes_title[:id]) do %>
+            <h1><%= recipes_title[:title] %></h1>
+        <% end %>
+        <%= image_tag recipes_title[:image_url] %>
+    <% end %>
+</div>

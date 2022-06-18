@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
-module Recipes
-  class ListTitles
+module RecipesService
+  class ListRecipesTitles
     def initialize(recipes: ContentfulCms::Resources::Recipes.new)
       @recipes = recipes
     end
 
     def call
-      recipes.list_titles
+      recipes.list
     end
 
     private

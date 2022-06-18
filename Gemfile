@@ -7,6 +7,7 @@ ruby '2.7.5'
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'contentful'
 gem 'dotenv-rails'
+gem 'redcarpet'
 gem 'jbuilder', '~> 2.7'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'

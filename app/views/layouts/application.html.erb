@@ -11,6 +11,21 @@
   </head>
 
   <body>
+  <header>
+    <div class="header">
+      <%= link_to recipes_path  do%> 
+        <a href="/" class="logo">Spoonful</a>
+      <% end %>
+      <%= link_to recipes_path  do%> 
+        <div class="header-right">
+          <a class="active" href="/">Recipes</a>
+        </div>
+      <% end %>
+    </div>
+  </header>
+  
+  <main>
     <%= yield %>
+  </main>
   </body>
 </html>
