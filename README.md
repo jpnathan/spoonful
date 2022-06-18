@@ -1,24 +1,35 @@
-# README
+# Spoonful
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple application to retrieve recipes from Contentful CMS
 
-Things you may want to cover:
+## Dependencies
 
-* Ruby version
+- Ruby 2.7.4
+- Rails 6.1
 
-* System dependencies
+## Installation
 
-* Configuration
+```ruby
+bundle install
+```
 
-* Database creation
+Run the app:
 
-* Database initialization
+```ruby
+rails s
+```
 
-* How to run the test suite
+## Future Improvements
 
-* Services (job queues, cache servers, search engines, etc.)
+- Error handling
+- Frontend design
+- Builders and Adapters to avoid repetition
+- Caching
 
-* Deployment instructions
+## Stay in touch
 
-* ...
+- Author - [Phillip Freitas](https://www.linkedin.com/in/phillipfreitas/)
+
+## License
+
+This app is [MIT licensed](LICENSE).
