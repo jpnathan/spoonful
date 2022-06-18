@@ -15,6 +15,8 @@ bundle install
 
 Run the app:
 
+Do not forget to create a `.env` file and add your Contentful credentials.
+
 ```ruby
 rails s
 ```
