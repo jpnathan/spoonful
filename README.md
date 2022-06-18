@@ -34,4 +34,4 @@ rails s
 
 ## License
 
-This app is [MIT licensed](LICENSE).
+This app is MIT licensed.
